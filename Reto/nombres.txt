@@ -1,0 +1,7 @@
+Archivo imagen a analizar no. 1: bucks_and_cents_[IMAGEN_1]
+Archivo imagen a analizar no. 2: bucks_and_cents_[IMAGEN_2]
+Archivo imagen a analizar no. 3: bucks_and_cents_[IMAGEN_3]
+Archivo imagen a analizar no. 4: bucks_and_cents_[IMAGEN_4]
+Archivo imagen a analizar no. 5: bucks_and_cents_[IMAGEN_5]
+Archivo imagen a analizar no. 6: bucks_and_cents_[IMAGEN_6]
+Archivo imagen a analizar no. 7: bucks_and_cents_[IMAGEN_7]
