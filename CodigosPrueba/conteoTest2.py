@@ -7,10 +7,9 @@ for numImg in range (1,8,1):
     grises = cv2.cvtColor(imagen, cv2.COLOR_RGBA2GRAY)
     gauss = cv2.GaussianBlur(grises,(15,15),0)
     _,th = cv2.threshold(gauss,80,200,cv2.THRESH_BINARY)
-    #canny = cv2.Canny(gauss,15,170)
+    canny = cv2.Canny(gauss,15,170)
 
     cnts,_= cv2.findContours(th.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-
     cv2.drawContours(imagen,cnts,-1,(255,0,0),2)
 
     print("CXontornos: ",len(cnts))
